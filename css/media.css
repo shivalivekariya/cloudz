@@ -4,7 +4,7 @@
     }
 
     .spacer-y {
-        padding: 50px 0px;
+        padding: 50px 10px;
     }
 
     .main_menu {
@@ -869,11 +869,6 @@
     .post-wraper2 {
         margin-bottom: 28px !important;
     }
-
-    .post-main1 {
-        padding: 0px 10px;
-    }
-
     .post-body h2 {
         font-size: 18px;
     }

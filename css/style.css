@@ -51,7 +51,7 @@
 
 body {
   font-family: "Montserrat", serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .flex {
   display: flex;
