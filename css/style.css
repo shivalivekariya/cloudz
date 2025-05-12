@@ -51,7 +51,7 @@
 
 body {
   font-family: "Montserrat", serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .flex {
   display: flex;
@@ -289,7 +289,7 @@ ul {
   background-position: fixed;
   position: relative;
   z-index: 1;
-  width: 600px;
+  /* width: 600px; */
 }
 
 .sub-title h3 {
