@@ -716,7 +716,7 @@
     }
 
     .form-grp input {
-        width: 385px;
+        width: 378px;
         padding: 14px 10px;
     }
 
@@ -867,7 +867,7 @@
     }
 
     .counter-width2 {
-        width: 400px !important;
+        width: 300px !important;
     }
 
     .counter-size {
@@ -879,7 +879,7 @@
     }
 
     .contact-mainimg {
-        width: 385px;
+        width: 350px;
         height: 405px;
     }
 
@@ -918,7 +918,7 @@
     }
 
     .se-width2 {
-        width: 360px !important;
+        width: 340px !important;
     }
 
     .security-right {
@@ -990,7 +990,7 @@
     }
 
     .data-width2 {
-        width: 400px;
+        width: 370px;
     }
 
     .data-item {
@@ -1000,9 +1000,11 @@
     .data-item li {
         width: calc(100%);
     }
-
+    .post-img{
+        width: 350px;
+    }
     .post-img img {
-        width: 385px;
+        width: 350px;
         height: 225px;
     }
 
@@ -1011,14 +1013,14 @@
     }
 
     .post-img1 img {
-        width: 364px;
+        width: 350px;
         height: 225px;
         margin-left: 0px;
     }
 
-    .post-img1 {
+    /* .post-img1 {
         width: 100%;
-    }
+    } */
 
     .post-flex {
         display: block;
