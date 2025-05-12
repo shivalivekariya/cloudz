@@ -474,14 +474,16 @@ ul {
   font-size: 46px;
   font-weight: 700;
   color: var(--darkblue);
-  width: 600px;
+  /* width: 600px; */
+  width: 100%;
   text-align: center;
 }
 
 .search-p-title {
   font-weight: 400;
   color: var(--gray);
-  width: 650px;
+  /* width: 650px; */
+  width: 100%;
   text-align: center;
 }
 
@@ -498,22 +500,11 @@ ul {
   color: var(--gray);
   font-weight: 500;
 }
-
-.select-grp {
-  font-weight: 500;
-  color: var(--gray);
-  outline: none;
-  border: none;
-  position: absolute;
-  top: 28%;
-  left: 65%;
-}
-
 .form-btn a {
   padding: 14px 34px !important;
   position: absolute;
   top: 9.5%;
-  left: 72%;
+  left: 67%;
 }
 
 .search1 {
@@ -567,19 +558,12 @@ strong {
 .s1 {
   color: var(--bgwhite);
 }
-
-.s1-width {
-  width: 700px;
-}
-
 .s-margin {
   margin-bottom: 60px !important;
 }
 
 .service-main {
-  display: flex;
-  flex-direction: row;
-  gap: 30px 30px;
+  gap: 25px 0px;
 }
 
 .service-main2 {
@@ -587,9 +571,9 @@ strong {
 }
 
 .service-box {
-  padding: 20px;
+  padding: 40px;
   border-radius: 30px;
-  width: 33.33%;
+  /* width: 33.33%; */
 }
 
 .box-c {
@@ -598,14 +582,12 @@ strong {
 
 .sbox-body h3 {
   margin: 0px 0px 15px 0px;
-  /* color: var(--bgwhite); */
   font-size: 20px;
   font-weight: 700;
 }
 
 .sbox-body p {
   margin: 0;
-  /* color: var(--bgwhite); */
   line-height: 1.7em;
 }
 
@@ -614,7 +596,6 @@ strong {
   border-radius: 4px;
   width: 50px;
   height: 28px;
-
 }
 
 .main-freebox {
@@ -640,7 +621,6 @@ strong {
   background-image: linear-gradient(to right, #0568ea 0%, #08b5f7 50%, #0568ea 100%);
   background-size: 200% auto;
   transition-duration: 0.4s;
-
   &:hover {
     background-position: right center;
   }
@@ -653,10 +633,6 @@ strong {
 }
 
 /* start trust section */
-
-.t-width {
-  width: 840px;
-}
 
 .trust-box {
   display: flex;
@@ -924,10 +900,6 @@ strong {
   margin-left: 3px;
 }
 
-.counter-width {
-  width: 650px;
-}
-
 .contact-btn {
   margin-top: 40px;
 }
@@ -958,9 +930,6 @@ strong {
   margin-top: 100px;
 }
 
-.counter-width3 {
-  width: 900px;
-}
 
 /* Float four columns side by side */
 .column {
@@ -998,17 +967,9 @@ strong {
 
 .security-one img {
   border-radius: 30px;
-  height: 600px;
-  width: 500px;
+  /* height: 600px;
+  width: 500px; */
   background-size: cover;
-}
-
-.se-width {
-  width: 100%;
-}
-
-.se-width2 {
-  width: 100%;
 }
 
 .security-icon {
@@ -1039,10 +1000,6 @@ strong {
 }
 
 /* start domain section */
-.d-width {
-  width: 650px;
-}
-
 .d-body img {
   width: 40px;
   height: 40px;
@@ -1135,26 +1092,15 @@ strong {
 .data-tab {
   margin: 34px 0;
 }
-
-.data-width {
-  width: 570px;
-}
-
-.data-width2 {
-  width: 600px;
-}
-
 .data-one {
   width: 490px;
   height: 310px;
 }
-
 .data-center {
   font-size: 20px;
   color: var(--darkblue);
   margin-top: 25px;
 }
-
 .data-item {
   display: flex;
   flex-wrap: wrap;
@@ -1199,48 +1145,20 @@ strong {
 }
 
 /* start post section */
-.post-main {
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 30px 30px;
-  row-gap: 30px;
-  column-gap: 30px;
-  flex-wrap: wrap;
-  margin-top: 75px;
-}
-
-.post-1 {
-  width: calc(50% - 15px);
-}
-
 .post-2 {
   margin: 0px 0px 30px 0px;
 }
-
-.post-1 .row {
-  content: '';
-  display: table;
-}
-
-.post-img img {
-  width: 625px;
-  height: 475px;
-  border-radius: 30px;
-  margin: 0px 0px 30px 0px;
-}
-
 .post-body h2 {
   font-size: 20px;
   margin: 0px 0px 10px 0px;
   color: var(--darkblue);
 }
 
-.post-body P {
-  margin: 0px 0px 20px 0px;
-}
-
 .post-wrapper {
   position: relative;
+}
+.post-section{
+  margin-top: 30px;
 }
 
 .post-icon::before {
@@ -1271,24 +1189,10 @@ strong {
   color: var(--darkblue);
   transition-delay: .3s;
 }
-
-.post-img1 {
-  width: 50%;
-}
-
 .post-img1 img {
-  width: 312px;
-  height: 215px;
+  /* width: 312px;
+  height: 215px; */
   border-radius: 30px;
-  margin-left: 28px;
-}
-
-.post-flex {
-  display: flex;
-}
-
-.post-body2 {
-  padding: 0px 0px 0px 20px;
 }
 
 .post-body2 h2 {
@@ -1299,10 +1203,6 @@ strong {
 .post-body2 p {
   color: #515362;
   font-size: 16px;
-}
-
-.post-main1 {
-  padding: 0px 20px;
 }
 
 /* start footer section */

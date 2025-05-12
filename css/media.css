@@ -2,22 +2,28 @@
     .spacer-t {
         padding-top: 50px;
     }
+
     .spacer-y {
         padding: 50px 0px;
     }
+
     .main_menu {
         display: none;
     }
+
     .h-btn {
         display: none;
     }
+
     .menu-icon {
         display: inline-block;
     }
+
     .sub-title h1 {
         font-size: 40px !important;
         width: 450px;
     }
+
     .banner-img {
         height: 1189px;
     }
@@ -60,33 +66,32 @@
 
     .serch-main-title {
         font-size: 36px;
-        width: 450px;
-    }
-
-    .search-p-title {
-        width: 900px;
     }
 
     .form-btn a {
-        left: 76.5%;
+        left: 73%;
     }
 
     .row1 {
         display: flex;
         flex-wrap: wrap;
     }
+     .service-box{
+        padding: 20px 15px;
+     }
+    .sbox-body img {
+  width: 40px;
+  height: 40px;
+  margin: 0px 0px 20px 0px;
+}
+.sbox-body h3 {
+  margin: 0px 0px 10px 0px;
+  font-size: 18px;
+}
+.sbox-body p {
+    font-size: 14px;
+}
 
-    .s1-width {
-        width: 500px;
-    }
-
-    .s2-width {
-        width: 900px;
-    }
-
-    .t-width {
-        width: 760px;
-    }
 
     .trust-box {
         display: flex;
@@ -145,14 +150,6 @@
         width: 45%;
     }
 
-    .counter-width {
-        width: 500px !important;
-    }
-
-    .counter-width2 {
-        width: 930px !important;
-    }
-
     .counter-size {
         font-size: 36px !important;
     }
@@ -160,11 +157,6 @@
     .contact-btn {
         margin-top: 30px;
     }
-
-    .counter-width3 {
-        width: 700px;
-    }
-
     .card p {
         font-size: 14px;
     }
@@ -181,14 +173,6 @@
     .security-right {
         margin-top: 40px !important;
         padding: 0 20px;
-    }
-
-    .se-width {
-        width: 450px !important;
-    }
-
-    .se-width2 {
-        width: 850px !important;
     }
 
     .security-icon {
@@ -234,43 +218,12 @@
         margin-top: 60px !important;
     }
 
-    .data-width {
-        width: 520px;
-    }
-
-    .data-width2 {
-        width: 940px;
-    }
-
     .data-item {
         margin-bottom: 30px;
     }
 
     .data-text {
         margin-left: 0px !important;
-    }
-
-    .post-main {
-        margin-top: 35px;
-    }
-
-    .post-1 {
-        width: 100%;
-    }
-
-    .post-img img {
-        width: 984px;
-        height: 747px;
-    }
-
-    .post-margin {
-        margin-top: 36px;
-    }
-
-    .post-img1 img {
-        width: 492px;
-        height: 339px;
-        margin-left: 0px;
     }
 
     .footer-2 {
@@ -306,57 +259,46 @@
     .about-banner {
         padding: 100px 0px;
     }
-
-    .client-img:hover .client-icon {
-        top: 90%;
-    }
-
-    .client {
-        margin-top: 50px;
-    }
-
-    .blog-body p {
-        font-size: 14px;
-    }
-
-    .contact-section {
-        margin-top: 30px;
-    }
-
-    .team-detail-box {
-        flex-wrap: wrap;
-    }
-
-    .team-box-1 {
-        width: 100%;
-    }
-
-    .team-img img {
-        width: 935px;
-        height: 836px;
-        object-fit: cover;
-        background-size: cover;
-        border-radius: 30px 30px 0px 0px;
-    }
-
-    .team-box-2 {
-        width: 100%;
-        border-radius: 0px 0px 30px 30px;
-        padding: 40px;
-    }
-
-    .team-detail-box2 {
-        margin: 30px auto;
-        display: flex;
-    }
-
-    .error-btn {
-        margin-top: 0px;
-    }
-
-    .serviced-section {
-        margin-top: 30px;
-    }
+    .client-img:hover .client-icon{
+  top: 90%;
+}
+.client{
+  margin-top: 50px;
+}
+.blog-body p{
+ font-size: 14px;
+} 
+.contact-section{
+  margin-top: 30px;
+}
+.team-detail-box{
+    flex-wrap: wrap;
+}
+.team-box-1{
+    width: 100%;
+}
+.team-img img{
+    width: 935px;
+    height: 836px;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 30px 30px 0px 0px;
+}
+.team-box-2{
+  width: 100%;
+  border-radius: 0px 0px 30px 30px;
+  padding: 40px;
+}
+.team-detail-box2{
+  margin: 30px auto;
+  display: flex;
+}
+.error-btn{
+  margin-top: 0px;
+}
+.serviced-section{
+    margin-top: 30px;
+}
 }
 
 @media screen and (max-width:768px) {
@@ -409,13 +351,8 @@
         width: 50px !important;
         height: 50px !important;
     }
-
-    .select-grp {
-        left: 74%;
-    }
-
     .form-btn a {
-        left: 86.5%;
+        left: 83%;
     }
 
     .service-box {
@@ -441,10 +378,6 @@
     .free-text p {
         font-size: 16px;
         line-height: 1.8em;
-    }
-
-    .p-width {
-        width: 600px;
     }
 
     .pricebox-1 {
@@ -479,10 +412,6 @@
         column-gap: 14px;
     }
 
-    .counter-width2 {
-        width: 700px !important;
-    }
-
     .contact-mainimg {
         width: 443px;
         height: 465px;
@@ -495,10 +424,6 @@
     .security-one img {
         width: 688px;
         height: 495px;
-    }
-
-    .se-width2 {
-        width: 700px !important;
     }
 
     .security-icon {
@@ -521,33 +446,17 @@
         height: 330px;
     }
 
-    .data-width2 {
-        width: 720px;
-    }
-
     .data-item {
         margin-bottom: 30px;
     }
 
     .post-main {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
-    .post-img img {
-        width: 728px;
-        height: 408px;
+    .post-section{
+        margin-top: 20px;
     }
-
-    .post-margin {
-        margin-top: 36px;
-    }
-
-    .post-img1 img {
-        width: 364px;
-        height: 225px;
-        margin-left: 0px;
-    }
-
     .footer-2 {
         margin-top: 20px;
     }
@@ -575,70 +484,58 @@
     .about-banner {
         padding: 90px 0px;
     }
+       .client-img:hover .client-icon{
+  top: 85%;
+  
+}
+.client{
+  margin-top: 40px;
+}
+.b-alp p{
+  font-size: 18px !important;
+}
+.blog-detail-icon{
+    margin-top: 20px;
+  text-align: left;
+}
+.comment-form3{
+  margin-right: 20px;
+}
+.know-section{
+    margin-top: 30px;
+}
 
-    .client-img:hover .client-icon {
-        top: 85%;
-
-    }
-
-    .client {
-        margin-top: 40px;
-    }
-
-    .b-alp p {
-        font-size: 18px !important;
-    }
-
-    .blog-detail-icon {
-        margin-top: 20px;
-        text-align: left;
-    }
-
-    .comment-form3 {
-        margin-right: 20px;
-    }
-
-    .know-section {
-        margin-top: 30px;
-    }
-
-    .team-img img {
-        width: 100%;
-        height: 670px;
-        /* object-fit: cover; */
-        background-size: cover;
-        border-radius: 30px 30px 0px 0px;
-    }
-
-    .erroe-page {
-        margin-bottom: 20px;
-    }
-
-    .erroe-page img {
-        max-width: 80%;
-    }
-
-    .error-content h2 {
-        margin-bottom: 15px;
-    }
-
-    .error-btn {
-        margin-top: 0px;
-    }
-
-    .question-box-main {
-        justify-content: left !important;
-    }
-
-    .ex-m {
-        margin-top: 0px;
-    }
+.team-img img{
+    width: 100%;
+    height: 670px;
+    /* object-fit: cover; */
+    background-size: cover;
+    border-radius: 30px 30px 0px 0px;
+}
+.erroe-page{
+  margin-bottom: 20px;
+}
+.erroe-page img{
+  max-width: 80%;
+}
+.error-content h2{
+  margin-bottom: 15px;
+}
+.error-btn{
+  margin-top: 0px;
+}
+.question-box-main{
+    justify-content: left !important;
+}
+ .ex-m{
+  margin-top: 0px;
+ }
 }
 
 
 @media screen and (max-width:767px) {
     .spacer-y {
-        padding: 50px 20px;
+        padding: 50px 10px;
     }
 
     .top-header-right {
@@ -710,7 +607,7 @@
     }
 
     .form-grp input {
-        width: 378px;
+        width: 385px;
         padding: 14px 10px;
     }
 
@@ -855,15 +752,6 @@
         padding: 0;
         gap: 10px 55px;
     }
-
-    .counter-width {
-        width: 350px !important;
-    }
-
-    .counter-width2 {
-        width: 300px !important;
-    }
-
     .counter-size {
         font-size: 26px !important;
     }
@@ -873,7 +761,7 @@
     }
 
     .contact-mainimg {
-        width: 350px;
+        width: 385px;
         height: 405px;
     }
 
@@ -905,12 +793,6 @@
     .security-one img {
         width: 355px;
         height: 255px;
-    }
-    .se-width {
-        width: 350px !important;
-    }
-    .se-width2 {
-        width: 340px !important;
     }
 
     .security-right {
@@ -959,10 +841,6 @@
         margin-bottom: 25px !important;
     }
 
-    .testimonial-width {
-        width: 380px;
-    }
-
     .data-one {
         width: 390px;
         height: 199px;
@@ -977,14 +855,6 @@
         margin-top: 30px !important;
     }
 
-    .data-width {
-        width: 350px;
-    }
-
-    .data-width2 {
-        width: 350px;
-    }
-
     .data-item {
         gap: 12px;
     }
@@ -992,32 +862,10 @@
     .data-item li {
         width: calc(100%);
     }
-    .post-img{
-        width: 350px;
-    }
-    .post-img img {
-        width: 350px;
-        height: 225px;
-    }
 
-    .post-margin {
-        margin-top: 25px;
+    .post-section{
+        margin-top: 10px;
     }
-
-    .post-img1 img {
-        width: 350px;
-        height: 225px;
-        margin-left: 0px;
-    }
-
-    /* .post-img1 {
-        width: 100%;
-    } */
-
-    .post-flex {
-        display: block;
-    }
-
     .post-wraper2 {
         margin-bottom: 28px !important;
     }
@@ -1046,153 +894,123 @@
         padding: 20px;
         width: 340px;
     }
+    .question-call img{
+  width: 36px;
+  height: 36px;
+}
+.question-body h3>a{
+  font-size: 18px;
+}
+.blog-detail-content blockquote{
+    background-position: 15px 12px;
+    padding: 60px 15px 15px 15px;
+    border-radius: 20px;
+}
+.blog-title{
+    font-size: 26px;
+}
+.blog-detail-content ul li{
+    font-size: 15px !important;
+}
+.blog-link a{
+    padding: 10px 15px;
+}
+.blog-detail-body .row{
+  padding-right: 5px;
+    padding-left: 5px;
+}
+.comment-box{
+  margin: 40px auto 0;
+}
+.comment-box .replay-title{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.comment-form3{
+    width: 100%;
+}
+.comment-form2 textarea{
+    margin-bottom: 20px;
+}
+.comment-form3 input{
+    margin-bottom: 24px !important;
+}
+.about2 ol>li>a{
+    font-size: 14px !important;
+}
+.knowledgebase-sidebar{
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 29px;
+}
+.knowledgebase-sidebar2{
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 29px;
+}
+.knowledgebase-icon{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.knowledgebase-icon img{
+    width: 40px;
+    height: 40px;
+}
+.cta-contact-content h2{
+    margin-bottom: 10px;
+}
+.know-btn{
+    margin-top: 18px !important;
+}
+.knowledgebase-item{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.knowledgebase-item-content h3{
+    font-size: 18px !important;
+}
+.team-img img{
+    width: 381px;
+    height: 366px;
+    /* object-fit: cover; */
+    background-size: cover;
+    border-radius: 30px 30px 0px 0px;
+}
+.team-title-3 ul li>span{
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-title-3 ul li{
+  padding-bottom: 12px;
+  margin-top: 10px;
+}
+.team-title-4{
+    gap: 10px;
+}
+.team-title-3 ul li>span>strong{
+  font-size: 18px;
+  width: 100%;
+}
+.error-btn{
+  margin-bottom: 0px !important;
+}
+.service-img2 img{
+    margin-top: 20px;
+}
+@keyframes box {
+  0%{
+    transform: translateX(-30px);
+}
+  50%{
+    transform: translateX(-15px);
+  }
+  100%{
+    transform: translateX(-30px);
+}
+}
 
-    .question-call img {
-        width: 36px;
-        height: 36px;
-    }
-
-    .question-body h3>a {
-        font-size: 18px;
-    }
-
-    .blog-detail-content blockquote {
-        background-position: 15px 12px;
-        padding: 60px 15px 15px 15px;
-        border-radius: 20px;
-    }
-
-    .blog-title {
-        font-size: 26px;
-    }
-
-    .blog-detail-content ul li {
-        font-size: 15px !important;
-    }
-
-    .blog-link a {
-        padding: 10px 15px;
-    }
-
-    .blog-detail-body .row {
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-
-    .comment-box {
-        margin: 40px auto 0;
-    }
-
-    .comment-box .replay-title {
-        font-size: 24px;
-        margin-bottom: 0px;
-    }
-
-    .comment-form3 {
-        width: 100%;
-    }
-
-    .comment-form2 textarea {
-        margin-bottom: 20px;
-    }
-
-    .comment-form3 input {
-        margin-bottom: 24px !important;
-    }
-
-    .about2 ol>li>a {
-        font-size: 14px !important;
-    }
-
-    .knowledgebase-sidebar {
-        padding: 20px;
-        margin-bottom: 30px;
-        margin-left: 29px;
-    }
-
-    .knowledgebase-sidebar2 {
-        padding: 20px;
-        margin-bottom: 30px;
-        margin-left: 29px;
-    }
-
-    .knowledgebase-icon {
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .knowledgebase-icon img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .cta-contact-content h2 {
-        margin-bottom: 10px;
-    }
-
-    .know-btn {
-        margin-top: 18px !important;
-    }
-
-    .knowledgebase-item {
-        padding: 20px;
-        margin-bottom: 30px;
-    }
-
-    .knowledgebase-item-content h3 {
-        font-size: 18px !important;
-    }
-
-    .team-img img {
-        width: 381px;
-        height: 366px;
-        /* object-fit: cover; */
-        background-size: cover;
-        border-radius: 30px 30px 0px 0px;
-    }
-
-    .team-title-3 ul li>span {
-        font-size: 14px;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .team-title-3 ul li {
-        padding-bottom: 12px;
-        margin-top: 10px;
-    }
-
-    .team-title-4 {
-        gap: 10px;
-    }
-
-    .team-title-3 ul li>span>strong {
-        font-size: 18px;
-        width: 100%;
-    }
-
-    .error-btn {
-        margin-bottom: 0px !important;
-    }
-
-    .service-img2 img {
-        margin-top: 20px;
-    }
-
-    @keyframes box {
-        0% {
-            transform: translateX(-30px);
-        }
-
-        50% {
-            transform: translateX(-15px);
-        }
-
-        100% {
-            transform: translateX(-30px);
-        }
-    }
 }
 
 @media screen and (max-width:376px) {
@@ -1202,24 +1020,11 @@
 
     .search-p-title {
         font-size: 14px;
-        width: 300px;
         line-height: 25.2px;
     }
-
-    .trust-title {
-        width: 350px;
-    }
-
     .form-grp input {
         width: 335px;
     }
-
-    .select-grp {
-        top: 34%;
-        left: 58%;
-        font-size: 14px;
-    }
-
     .form-btn a {
         padding: 10px !important;
         top: 18%;
@@ -1229,15 +1034,6 @@
     .price-mainlast ul {
         gap: 10px 30px;
     }
-
-    .counter-width {
-        width: 320px !important;
-    }
-
-    .counter-width2 {
-        width: 340px !important;
-    }
-
     .counter-size2 {
         font-size: 14px;
     }
@@ -1260,14 +1056,6 @@
         margin-top: 20px;
     }
 
-    .se-width {
-        width: 300px !important;
-    }
-
-    .se-width2 {
-        width: 300px !important;
-    }
-
     .security-one img {
         width: 305px;
         height: 219px;
@@ -1277,9 +1065,6 @@
         padding: 40px 20px 20px 20px;
     }
 
-    .testimonial-width {
-        width: 300px;
-    }
 
     .data-one {
         width: 315px;
@@ -1290,15 +1075,6 @@
         width: 315px !important;
         height: 170px !important;
     }
-
-    .data-width {
-        width: 350px;
-    }
-
-    .data-width2 {
-        width: 330px;
-    }
-
     .nav-tabs>.nav-link {
         padding: 5px 9px;
         font-size: 14px;
@@ -1306,20 +1082,6 @@
 
     .data-center {
         font-size: 16px;
-    }
-
-    .post-img img {
-        width: 335px;
-        height: 187px;
-    }
-
-    .post-margin {
-        margin-top: 18px;
-    }
-
-    .post-img1 img {
-        width: 335px;
-        height: 206px;
     }
 }
 
@@ -1379,10 +1141,6 @@
         width: 300px;
     }
 
-    .select-grp {
-        left: 54%;
-    }
-
     .form-btn a {
         left: 74%;
     }
@@ -1399,14 +1157,6 @@
         gap: 8px 55px;
     }
 
-    .counter-width {
-        width: 270px !important;
-    }
-
-    .counter-width2 {
-        width: 250px !important;
-    }
-
     .contact-btn {
         margin-top: 0px;
         margin-bottom: 30px !important;
@@ -1421,15 +1171,6 @@
         width: 300px;
         height: 320px;
     }
-
-    .se-width {
-        width: 240px !important;
-    }
-
-    .se-width2 {
-        width: 280px !important;
-    }
-
     .security-one img {
         width: 280px;
         height: 180px;
@@ -1441,10 +1182,6 @@
 
     .security-left {
         padding: 0px 0px;
-    }
-
-    .testimonial-width {
-        width: 250px;
     }
 
     .testimonial-sliderimg img {
@@ -1462,39 +1199,18 @@
         height: 140px;
     }
 
-    .data-width {
-        width: 300px;
-    }
-
-    .data-width2 {
-        width: 280px;
-    }
-
     .nav-tabs>.nav-link {
         padding: 3px 6px;
         font-size: 14px;
-    }
-
-    .post-img img {
-        width: 280px;
-        height: 156px;
-    }
-
-    .post-margin {
-        margin-top: 18px;
-    }
-
-    .post-img1 img {
-        width: 280px;
-        height: 173px;
     }
 
     .question-box {
         padding: 20px;
         width: 260px;
     }
-
-    
+    .blog-link{
+        flex-wrap: wrap;
+    }
 }
 
 /* Responsive columns */
