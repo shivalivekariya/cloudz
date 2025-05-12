@@ -51,7 +51,7 @@
 
 body {
   font-family: "Montserrat", serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .flex {
   display: flex;
@@ -901,13 +901,11 @@ strong {
 
 .c-sub-title h2 {
   font-size: 46px;
-  /* width: 630px; */
   margin-bottom: 20px;
 }
 
 .c-sub2-title p {
   color: #515362;
-  /* width: 630px; */
 }
 
 .contact-slider {
@@ -1006,11 +1004,11 @@ strong {
 }
 
 .se-width {
-  width: 600px !important;
+  width: 100%;
 }
 
 .se-width2 {
-  width: 550px !important;
+  width: 100%;
 }
 
 .security-icon {
