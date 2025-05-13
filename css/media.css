@@ -278,7 +278,7 @@
     width: 100%;
 }
 .team-img img{
-    width: 935px;
+    width: 100%;
     height: 836px;
     object-fit: cover;
     background-size: cover;
@@ -971,7 +971,7 @@
     font-size: 18px !important;
 }
 .team-img img{
-    width: 381px;
+    width: 100%;
     height: 366px;
     /* object-fit: cover; */
     background-size: cover;
