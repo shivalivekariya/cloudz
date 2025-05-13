@@ -299,6 +299,9 @@
 .serviced-section{
     margin-top: 30px;
 }
+.box-service{
+    width: 45%;
+} 
 }
 
 @media screen and (max-width:768px) {
@@ -536,6 +539,9 @@
 @media screen and (max-width:767px) {
     .spacer-y {
         padding: 50px 10px;
+    }
+    .contact-section{
+        padding: 0px 10px;
     }
 
     .top-header-right {
@@ -1005,6 +1011,11 @@
     transform: translateX(-30px);
 }
 }
+.counter-code .row2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 }
 
@@ -1077,6 +1088,10 @@
 
     .data-center {
         font-size: 16px;
+    }
+    .team-img img{
+    width: 331px;
+    height: 320px;
     }
 }
 
@@ -1211,8 +1226,7 @@
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .column {
-        width: 50%;
-        display: block;
+        width: 45%;
         margin-bottom: 10px;
     }
 }

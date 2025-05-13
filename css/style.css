@@ -51,7 +51,7 @@
 
 body {
   font-family: "Montserrat", serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .flex {
   display: flex;
@@ -934,26 +934,21 @@ strong {
 /* Float four columns side by side */
 .column {
   float: center;
-  width: 25%;
-  padding: 0 5px;
+  width: 22%;
+  padding: 0 0px;
 }
-
-/* Clear floats after the columns */
-.counter-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* Style the counter cards */
 .card {
-  padding: 6px;
   text-align: center;
   background-color: transparent;
   color: white;
   border: none;
 }
-
+.counter-code .row2{
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
 .card p {
   font-weight: 500;
 }
@@ -1445,32 +1440,6 @@ strong {
   transition-duration: .4s;
 }
 
-.accordion-header button {
-  color: var(--bgwhite);
-  font-size: 20px;
-  background-color: var(--darkblue);
-  padding: 30px;
-}
-
-.accordion-header button::after {
-  background-image: url(../image/download.png);
-}
-
-.accordion-button:not(.collapsed) {
-  background-color: var(--darkblue);
-  color: var(--bgwhite);
-}
-
-.accordion-button:not(.collapsed)::after {
-  background-image: url(../image/download.png);
-}
-
-.accordion-body {
-  padding: 10px;
-  background-color: var(--darkblue);
-  color: var(--bgwhite);
-}
-
 .client-img img {
   border-radius: 30px;
   width: 100%;
@@ -1583,8 +1552,38 @@ strong {
   box-shadow: 0px 0px 30px 0px rgba(15.000000000000005, 16.999999999999982, 55, 0.10196078431372549);
   border: 1px solid #0f11371a;
   position: relative;
+  padding: 30px;
   overflow: hidden;
   transition-duration: .4s;
+  width: 30%;
+}
+.box-service2 {
+  background-color: #A24D4D00;
+  box-shadow: 0px 0px 30px 0px rgba(15.000000000000005, 16.999999999999982, 55, 0.10196078431372549);
+  border: 1px solid #0f11371a;
+  position: relative;
+  overflow: hidden;
+  transition-duration: .4s;
+}
+.box-service2::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: var(--darkblue);
+  position: absolute;
+  top: 120%;
+  left: 0;
+  /* border-radius: 30px; */
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+.box-service2:hover::before {
+  top: 0;
+  z-index: -2;
+}
+.service-row{
+  row-gap: 30px;
+  column-gap: 20px;
 }
 
 .box-color {
@@ -1758,7 +1757,7 @@ textarea {
   font-size: 20px;
   font-weight: 500;
   color: var(--e-global-color-primary);
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: center;
   /* flex-wrap: wrap; */
   gap: 10px;
@@ -2020,19 +2019,19 @@ textarea {
   transition-delay: .3s;
 }
 
-.box-service:hover .knowledgebase-meta ul>li>a {
+.box-service2:hover .knowledgebase-meta ul>li>a {
   color: var(--bgwhite);
 }
 
-.box-service:hover .knowledgebase-item-content h3 {
+.box-service2:hover .knowledgebase-item-content h3 {
   color: var(--bgwhite);
 }
 
-.box-service:hover .knowledgebase-item-content p {
+.box-service2:hover .knowledgebase-item-content p {
   color: var(--bgwhite);
 }
 
-.box-service:hover .post-wrapper a {
+.box-service2:hover .post-wrapper a {
   color: var(--bgwhite);
 }
 
