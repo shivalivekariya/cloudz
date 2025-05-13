@@ -40,14 +40,10 @@
         font-size: 40px !important;
         /* width: 500px; */
     }
-/* 
-    .sub-title p {
-        width: 950px;
-    } */
 
     .banner-img2 img {
         width: 572px !important;
-        height: 789px !important;
+        height: 833px !important;
         margin-top: 45px;
     }
 
@@ -163,11 +159,6 @@
 
     .card h3 {
         font-size: 36px;
-    }
-
-    .security-one img {
-        width: 944px;
-        height: 979px;
     }
 
     .security-right {
@@ -320,7 +311,7 @@
 
     .banner-img2 img {
         width: 320px !important;
-        height: 495px !important;
+        height: 539px !important;
         margin-top: 41px;
         display: inline-block;
         background-size: cover;
@@ -406,8 +397,8 @@
     }
 
     .contact-mainimg {
-        width: 443px;
-        height: 465px;
+        width: 100%;
+        height: 100%;
     }
 
     .counter-code {
@@ -415,7 +406,7 @@
     }
 
     .security-one img {
-        width: 688px;
+        width: 100%;
         height: 495px;
     }
 
@@ -754,7 +745,7 @@
     }
 
     .contact-mainimg {
-        width: 385px;
+        width: 100%;
         height: 405px;
     }
 
@@ -781,11 +772,6 @@
 
     .counter-code {
         margin-top: 40px;
-    }
-
-    .security-one img {
-        width: 355px;
-        height: 255px;
     }
 
     .security-right {
@@ -994,6 +980,10 @@
   justify-content: center;
 }
 
+.security-one img{
+    width: 100%;
+    height: 100%;
+}
 }
 
 @media screen and (max-width:376px) {
@@ -1031,17 +1021,13 @@
     }
 
     .contact-mainimg {
-        width: 330px;
+        width: 100%;
         height: 352px;
     }
 
+
     .security-right {
         margin-top: 20px;
-    }
-
-    .security-one img {
-        width: 305px;
-        height: 219px;
     }
 
     .testimonial-box {
@@ -1075,18 +1061,6 @@
         margin-left: 19px;
         margin-top: 13px;
     }
-/* 
-    .sub-title h3 {
-        width: 260px;
-    }
-
-    .sub-title h1 {
-        width: 260px;
-    }
-
-    .sub-title p {
-        width: 260px !important;
-    } */
 
     .banner-btn {
         display: flex;
@@ -1145,12 +1119,8 @@
     }
 
     .contact-mainimg {
-        width: 300px;
+        width: 100%;
         height: 320px;
-    }
-    .security-one img {
-        width: 280px;
-        height: 180px;
     }
 
     .security-right {
