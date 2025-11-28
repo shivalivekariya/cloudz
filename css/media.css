@@ -532,12 +532,10 @@
 
     .sub-title h1 {
         font-size: 28px !important;
-        /* width: 350px; */
     }
 
     .sub-title p {
         font-size: 14px;
-        /* width: 380px; */
     }
 
     .banner-img {
@@ -552,7 +550,6 @@
     .banner-img2 img {
         width: 250px !important;
         height: 383px !important;
-        /* margin-top: 37px; */
         display: inline-block;
         background-size: cover;
     }
